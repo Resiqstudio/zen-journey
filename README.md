@@ -24,6 +24,7 @@ A complete wellness application built with React, TypeScript, Vite, Tailwind CSS
 3. Use the default Vite settings:
    - Build Command: npm run build
    - Output Directory: dist
-4. Add this environment variable if you want the frontend to call a backend later:
+4. Add these environment variables in Vercel:
    - VITE_API_URL=https://your-api-domain.com/api
+   - VITE_API_KEY=your_api_key_here
 5. Vercel will use the included vercel.json for SPA routing.
